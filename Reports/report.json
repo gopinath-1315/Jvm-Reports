@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12285050700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to in home page",
+            "match": {
+              "location": "ShowroomSD.user_has_to_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11768740400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeclass()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "to verify login functionality",
+        "description": "",
+        "id": "to-validate-home-page;to-verify-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 147400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterclass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4704902000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to enter \"saravanan00@gmail.com\" and \"7402516716\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "saravanan00@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "7402516716",
+                  "offset": 47
+                }
+              ],
+              "location": "ShowroomSD.user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2913695200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to click login button",
+            "match": {
+              "location": "ShowroomSD.user_has_to_click_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate home page",
+    "description": "",
+    "id": "to-validate-home-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature files/Showroom.feature"
+  }
+]
